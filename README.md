@@ -14,7 +14,8 @@
 (要有root權限)
 
 ## 設定檔
-src/config.js
+src/config.js:
+
     module.exports = {
         // 目標伺服器
         targetHost: "1.1.1.1",
