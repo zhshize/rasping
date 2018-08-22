@@ -1,0 +1,16 @@
+{
+  "name": "rasping",
+  "version": "1.0.0",
+  "description": "Raspberry pi ping and paly music",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "net-ping": "^1.2.3",
+    "play-sound": "^1.1.2"
+  }
+}
