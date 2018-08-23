@@ -9,6 +9,7 @@ const audio = {
     Alive: "./audio/Alive.mp3",
     Timeout: "./audio/Timeout.mp3",
     Unreachable: "./audio/Unreachable.mp3",
+    Error: "./audio/Error.mp3",
 };
 
 function play(audioFile) {
@@ -39,6 +40,7 @@ setInterval(function () {
                 play(audio.Unreachable);
             } else {
                 console.log(now() + "  " + target + ": " + error.toString());
+                play(audio.Error);
             }
         } else {
             console.log(now() + "  " + target + ": Alive");
